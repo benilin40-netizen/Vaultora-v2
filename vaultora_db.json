@@ -1,0 +1,398 @@
+{
+  "users": [],
+  "admins": [
+    {
+      "id": "admin_85947695-3717-4581-acbe-b44a89be1bfa",
+      "fullName": "BeniLin",
+      "email": "benilin40@gmail.com",
+      "passwordHash": "7676f7a19aaac2442693636f519128eb7956be80beaba80019bd877a4e584b1f7d46d8134aa809b1e575c7fcf8fca3a32902b87a924dff70e26e9e66da0424f1",
+      "salt": "0b8957f25992ad2f5a67334990f7aa82",
+      "role": "Super Admin",
+      "status": "active",
+      "createdAt": "2026-10-14T23:26:48.739Z"
+    }
+  ],
+  "adminInvitations": [],
+  "deposits": [],
+  "withdrawals": [],
+  "savingsPlans": [],
+  "dailyCalculations": [],
+  "treasury": [],
+  "credits": [],
+  "auditLogs": [
+    {
+      "id": "audit_f456c194-174c-4460-8ac9-70dad727d185",
+      "actorType": "admin",
+      "actorId": "admin_85947695-3717-4581-acbe-b44a89be1bfa",
+      "action": "ADMIN_LOGIN",
+      "details": {
+        "email": "benilin40@gmail.com"
+      },
+      "timestamp": "2026-11-12T02:52:42.982Z"
+    },
+    {
+      "id": "audit_e973ba22-c021-4c25-b09e-fe06bc83c827",
+      "actorType": "admin",
+      "actorId": "admin_85947695-3717-4581-acbe-b44a89be1bfa",
+      "action": "ADMIN_LOGIN",
+      "details": {
+        "email": "benilin40@gmail.com"
+      },
+      "timestamp": "2026-11-12T02:41:30.693Z"
+    },
+    {
+      "id": "audit_0a7781be-888f-4818-add2-61eb601decfd",
+      "actorType": "user",
+      "actorId": "user_3b1b6e1b-6d32-4d11-80dd-97103adf71ee",
+      "action": "SAVINGS_PLAN_CREATED",
+      "details": {
+        "planId": "sav_c812539e-8a25-479b-ac52-813af6f1bfeb",
+        "amount": 5000
+      },
+      "timestamp": "2026-11-12T02:36:23.291Z"
+    },
+    {
+      "id": "audit_923af23e-f43d-417d-b2f1-3fe769c9b1af",
+      "actorType": "user",
+      "actorId": "user_3b1b6e1b-6d32-4d11-80dd-97103adf71ee",
+      "action": "DEPOSIT_REQUESTED",
+      "details": {
+        "depositId": "dep_4cce30b5-58a0-49bb-a6a8-1deea0e3d39a",
+        "amount": 5000
+      },
+      "timestamp": "2026-11-12T02:36:23.260Z"
+    },
+    {
+      "id": "audit_3448fe8a-bb9e-407a-a41b-a3fdfb39f3c8",
+      "actorType": "user",
+      "actorId": "user_3b1b6e1b-6d32-4d11-80dd-97103adf71ee",
+      "action": "USER_REGISTERED",
+      "details": {
+        "email": "fin_test_1794450983113@vaultora.test",
+        "currency": "UGX"
+      },
+      "timestamp": "2026-11-12T02:36:23.235Z"
+    },
+    {
+      "id": "audit_b6b4e575-c952-4571-9544-5a7c7c53e062",
+      "actorType": "user",
+      "actorId": "user_3d0fc165-bb28-44e7-9441-b6b961bbd97d",
+      "action": "USER_LOGIN",
+      "details": {
+        "email": "test_1794450980618@vaultora.test"
+      },
+      "timestamp": "2026-11-12T02:36:20.768Z"
+    },
+    {
+      "id": "audit_34bed9a0-77d2-45f4-8cd9-94beda496a2f",
+      "actorType": "user",
+      "actorId": "user_3d0fc165-bb28-44e7-9441-b6b961bbd97d",
+      "action": "USER_REGISTERED",
+      "details": {
+        "email": "test_1794450980618@vaultora.test",
+        "currency": "UGX"
+      },
+      "timestamp": "2026-11-12T02:36:20.744Z"
+    },
+    {
+      "id": "audit_03dc1a83-4d5e-4a58-9718-0f53060ffaae",
+      "actorType": "user",
+      "actorId": "user_291deb38-e520-4f2c-80ab-012b248f2dee",
+      "action": "SAVINGS_PLAN_CREATED",
+      "details": {
+        "planId": "sav_d9376dbf-1dff-42b5-9164-bbbf1b0d261b",
+        "amount": 5000
+      },
+      "timestamp": "2026-11-12T02:27:25.041Z"
+    },
+    {
+      "id": "audit_b34023b0-ad7c-4671-be8b-df3ca9e0b997",
+      "actorType": "user",
+      "actorId": "user_291deb38-e520-4f2c-80ab-012b248f2dee",
+      "action": "DEPOSIT_REQUESTED",
+      "details": {
+        "depositId": "dep_5ea1ae12-9caf-4136-ae46-d700a44114b3",
+        "amount": 5000
+      },
+      "timestamp": "2026-11-12T02:27:25.010Z"
+    },
+    {
+      "id": "audit_25610de9-c1f8-4930-9cc8-882e4e658ed7",
+      "actorType": "user",
+      "actorId": "user_291deb38-e520-4f2c-80ab-012b248f2dee",
+      "action": "USER_REGISTERED",
+      "details": {
+        "email": "fin_test_1794450444877@vaultora.test",
+        "currency": "UGX"
+      },
+      "timestamp": "2026-11-12T02:27:24.985Z"
+    },
+    {
+      "id": "audit_443dde69-e933-40a3-b23e-1513abf1136c",
+      "actorType": "user",
+      "actorId": "user_b5dee67a-07a2-4dc9-be82-84e52433106d",
+      "action": "USER_LOGIN",
+      "details": {
+        "email": "test_1794450441851@vaultora.test"
+      },
+      "timestamp": "2026-11-12T02:27:21.988Z"
+    },
+    {
+      "id": "audit_62b9d872-27ab-401c-b139-a61e33b68385",
+      "actorType": "user",
+      "actorId": "user_b5dee67a-07a2-4dc9-be82-84e52433106d",
+      "action": "USER_REGISTERED",
+      "details": {
+        "email": "test_1794450441851@vaultora.test",
+        "currency": "UGX"
+      },
+      "timestamp": "2026-11-12T02:27:21.965Z"
+    },
+    {
+      "id": "audit_c13084e9-2ccc-4d70-8f50-579ca8066a66",
+      "actorType": "user",
+      "actorId": "user_5f6551b0-79ee-468c-a71a-1e49732f3c38",
+      "action": "USER_LOGIN",
+      "details": {
+        "email": "test_1794358042471@vaultora.test"
+      },
+      "timestamp": "2026-11-11T00:47:22.591Z"
+    },
+    {
+      "id": "audit_4807d415-80d4-4b0f-bfe7-6ec4e20ece42",
+      "actorType": "user",
+      "actorId": "user_5f6551b0-79ee-468c-a71a-1e49732f3c38",
+      "action": "USER_REGISTERED",
+      "details": {
+        "email": "test_1794358042471@vaultora.test",
+        "currency": "UGX"
+      },
+      "timestamp": "2026-11-11T00:47:22.570Z"
+    },
+    {
+      "id": "audit_aa865e04-ddba-4e5f-8745-6e331e3f7b92",
+      "actorType": "user",
+      "actorId": "user_035b8a2b-dfe4-4321-b8f0-e053fe092bf5",
+      "action": "SAVINGS_PLAN_CREATED",
+      "details": {
+        "planId": "sav_761f28d7-b589-45a3-a64c-538e0fbf28be",
+        "amount": 5000
+      },
+      "timestamp": "2026-11-11T00:47:19.620Z"
+    },
+    {
+      "id": "audit_28ce9798-8257-4633-92d6-d78b4e6eb2a5",
+      "actorType": "user",
+      "actorId": "user_035b8a2b-dfe4-4321-b8f0-e053fe092bf5",
+      "action": "DEPOSIT_REQUESTED",
+      "details": {
+        "depositId": "dep_9471465d-b30d-4aaf-8abd-c1f688f74fbf",
+        "amount": 5000
+      },
+      "timestamp": "2026-11-11T00:47:19.585Z"
+    },
+    {
+      "id": "audit_ad03a246-a019-44fc-a823-9e5abdd5736c",
+      "actorType": "user",
+      "actorId": "user_035b8a2b-dfe4-4321-b8f0-e053fe092bf5",
+      "action": "USER_REGISTERED",
+      "details": {
+        "email": "fin_test_1794358039439@vaultora.test",
+        "currency": "UGX"
+      },
+      "timestamp": "2026-11-11T00:47:19.560Z"
+    },
+    {
+      "id": "audit_564a6f9c-d7c9-4208-9c28-11bf3e11c8bf",
+      "actorType": "user",
+      "actorId": "user_fdcff19c-7239-4801-a297-35a65f416367",
+      "action": "SAVINGS_PLAN_CREATED",
+      "details": {
+        "planId": "sav_a14b4348-10d9-40c8-83ae-54da54612b3f",
+        "amount": 5000
+      },
+      "timestamp": "2026-11-11T00:45:54.585Z"
+    },
+    {
+      "id": "audit_d8510bfe-5993-42b1-8904-1a2ed8043972",
+      "actorType": "user",
+      "actorId": "user_fdcff19c-7239-4801-a297-35a65f416367",
+      "action": "DEPOSIT_REQUESTED",
+      "details": {
+        "depositId": "dep_dca93ec4-019b-4226-ae86-1dd281bbda44",
+        "amount": 5000
+      },
+      "timestamp": "2026-11-11T00:45:54.559Z"
+    },
+    {
+      "id": "audit_3ff0380e-e252-47d9-af0c-7839822b5027",
+      "actorType": "user",
+      "actorId": "user_fdcff19c-7239-4801-a297-35a65f416367",
+      "action": "USER_REGISTERED",
+      "details": {
+        "email": "fin_test_1794357954410@vaultora.test",
+        "currency": "UGX"
+      },
+      "timestamp": "2026-11-11T00:45:54.529Z"
+    },
+    {
+      "id": "audit_b8f973da-f691-435a-be88-4257aa23577f",
+      "actorType": "user",
+      "actorId": "user_50d2ae4f-619d-46db-8cff-5f315ae73532",
+      "action": "USER_LOGIN",
+      "details": {
+        "email": "test_1794356387975@vaultora.test"
+      },
+      "timestamp": "2026-11-11T00:19:48.108Z"
+    },
+    {
+      "id": "audit_b20b31b1-e467-419c-bf2b-ce1d407e1ce2",
+      "actorType": "user",
+      "actorId": "user_50d2ae4f-619d-46db-8cff-5f315ae73532",
+      "action": "USER_REGISTERED",
+      "details": {
+        "email": "test_1794356387975@vaultora.test",
+        "currency": "UGX"
+      },
+      "timestamp": "2026-11-11T00:19:48.087Z"
+    },
+    {
+      "id": "audit_4923dc7a-c31f-43b3-afc9-2124dd0feeda",
+      "actorType": "user",
+      "actorId": "user_fca9f42e-8865-4dcc-89a9-c7ea8ae2377e",
+      "action": "USER_LOGIN",
+      "details": {
+        "email": "test_1794356352811@vaultora.test"
+      },
+      "timestamp": "2026-11-11T00:19:12.961Z"
+    },
+    {
+      "id": "audit_e7da49e4-3a4a-4856-b34e-852481f651ca",
+      "actorType": "user",
+      "actorId": "user_fca9f42e-8865-4dcc-89a9-c7ea8ae2377e",
+      "action": "USER_REGISTERED",
+      "details": {
+        "email": "test_1794356352811@vaultora.test",
+        "currency": "UGX"
+      },
+      "timestamp": "2026-11-11T00:19:12.936Z"
+    },
+    {
+      "id": "audit_46ea10a3-c6e6-41e9-90df-b93e38e14fb9",
+      "actorType": "admin",
+      "actorId": "admin_85947695-3717-4581-acbe-b44a89be1bfa",
+      "action": "MAINTENANCE_MODE_RESTORED",
+      "details": {
+        "previousStatus": "Maintenance",
+        "newStatus": "Online",
+        "adminEmail": "benilin40@gmail.com",
+        "adminRole": "Super Admin",
+        "reason": "System restored to online operation"
+      },
+      "timestamp": "2026-10-14T23:39:09.702Z"
+    },
+    {
+      "id": "audit_de149334-7a1b-4317-b509-b2a42e82bbf1",
+      "actorType": "admin",
+      "actorId": "admin_85947695-3717-4581-acbe-b44a89be1bfa",
+      "action": "MAINTENANCE_MODE_ENABLED",
+      "details": {
+        "previousStatus": "Online",
+        "newStatus": "Maintenance",
+        "adminEmail": "benilin40@gmail.com",
+        "adminRole": "Super Admin",
+        "reason": "Scheduled security and UGX database reconciliation"
+      },
+      "timestamp": "2026-10-14T23:38:54.534Z"
+    },
+    {
+      "id": "audit_ea74cdd9-1d15-47cf-be1a-1758b64b310b",
+      "actorType": "admin",
+      "actorId": "admin_85947695-3717-4581-acbe-b44a89be1bfa",
+      "action": "SAVINGS_CONFIG_UPDATED",
+      "details": {
+        "waitingPeriodDays": 2,
+        "dailyInterestRate": 0.08,
+        "minDeposit": 5000,
+        "maxDeposit": 100000000,
+        "minWithdrawal": 10000,
+        "withdrawalFeePercent": 1.5,
+        "supportedCurrencies": [
+          "UGX",
+          "USD",
+          "EUR",
+          "GBP"
+        ],
+        "maintenanceMode": false
+      },
+      "timestamp": "2026-10-14T23:28:09.750Z"
+    },
+    {
+      "id": "audit_e877eea6-26ec-4855-8f79-95d29be3c651",
+      "actorType": "admin",
+      "actorId": "admin_85947695-3717-4581-acbe-b44a89be1bfa",
+      "action": "ADMIN_LOGIN",
+      "details": {
+        "email": "benilin40@gmail.com"
+      },
+      "timestamp": "2026-10-14T23:26:56.548Z"
+    },
+    {
+      "id": "audit_52f6dbdb-6f96-458c-9b7c-9fc836abfc55",
+      "actorType": "admin",
+      "actorId": "admin_85947695-3717-4581-acbe-b44a89be1bfa",
+      "action": "FIRST_ADMIN_BOOTSTRAP",
+      "details": {
+        "email": "benilin40@gmail.com"
+      },
+      "timestamp": "2026-10-14T23:26:48.739Z"
+    }
+  ],
+  "settings": {
+    "waitingPeriodDays": 2,
+    "dailyInterestRate": 0.08,
+    "minDeposit": 5000,
+    "maxDeposit": 100000000,
+    "minWithdrawal": 10000,
+    "withdrawalFeePercent": 1.5,
+    "supportedCurrencies": [
+      "UGX",
+      "USD",
+      "EUR",
+      "GBP"
+    ],
+    "maintenanceMode": false,
+    "maintenanceChangedBy": "benilin40@gmail.com",
+    "maintenanceChangedAt": "2026-10-14T23:39:09.702Z",
+    "maintenanceReason": "System restored to online operation"
+  },
+  "sessions": {
+    "3df93a1e0dae9b17a0310724feae7b22e0c022dbe5dfd6d707714fe1b43ccac4": {
+      "adminId": "admin_85947695-3717-4581-acbe-b44a89be1bfa",
+      "role": "Super Admin",
+      "email": "benilin40@gmail.com",
+      "expiresAt": 1792049208739
+    },
+    "3aac005dcfb4b0f356b2c99e643ca2de2eafc57a2ec98939c4358e3aeb5f4b0f": {
+      "adminId": "admin_85947695-3717-4581-acbe-b44a89be1bfa",
+      "role": "Super Admin",
+      "email": "benilin40@gmail.com",
+      "expiresAt": 1792049216548
+    },
+    "f9b8a0a7f48a1d84515677499c0e6881d5042f8e16851cd910ef7af98b2bbae0": {
+      "adminId": "admin_85947695-3717-4581-acbe-b44a89be1bfa",
+      "role": "Super Admin",
+      "email": "benilin40@gmail.com",
+      "expiresAt": 1794480090693
+    },
+    "48db1178779112e22e82ade406c71d4aa92dc2f3f2e5b5e663123cd267d9279c": {
+      "adminId": "admin_85947695-3717-4581-acbe-b44a89be1bfa",
+      "role": "Super Admin",
+      "email": "benilin40@gmail.com",
+      "expiresAt": 1794480762982
+    }
+  },
+  "passwordResetTokens": [],
+  "emailVerificationTokens": [],
+  "supportTickets": []
+}
